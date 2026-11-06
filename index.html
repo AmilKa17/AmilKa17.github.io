@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AmilKa17 - сайты, хакатоны, продукты</title>
+  <meta name="description" content="Делаю сайты с онлайн-записью для салонов и школьные продукты на хакатонах. Демо, ФизМатХаб ЛИ24, DamirAI.">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav" aria-label="Разделы">
+      <a href="#work">Работы</a>
+      <a href="#about">О себе</a>
+      <a href="#showcase">Демо</a>
+      <a href="#cta" class="nav-cta">Написать</a>
+    </nav>
+    <p class="hero-line">Сайты с записью · хакатоны · продукты</p>
+    <h1 class="monument" aria-label="AmilKa17">
+      <span class="monument-row">Amil</span><span class="monument-gap" aria-hidden="true"><img src="assets/beta-site-preview.png" alt="" width="400" height="500"></span><span class="monument-row">Ka17</span>
+    </h1>
+  </header>
+
+  <section class="work" id="work">
+    <h2 class="work-title">Работы</h2>
+    <div class="wall">
+      <a class="tile tile-a" href="https://amilka17.github.io/beta-site/" target="_blank" rel="noopener">
+        <img src="assets/beta-site-preview.png" alt="Скриншот демо-сайта парикмахерской с онлайн-записью" width="800" height="1000" loading="lazy">
+        <span class="tile-meta">
+          <strong>Beta Site</strong>
+          <em>Сайт салона + онлайн-запись</em>
+        </span>
+      </a>
+      <a class="tile tile-b" href="#showcase" data-show="fizmathub">
+        <img src="assets/free-alphabet-chalkboard-books-image.webp" alt="Школьная доска с буквами и книгами" width="1024" height="685" loading="lazy">
+        <span class="tile-meta">
+          <strong>ФизМатХаб</strong>
+          <em>Хакатон ЛИ24 · портал лицея</em>
+        </span>
+      </a>
+      <a class="tile tile-c" href="#showcase" data-show="damirai">
+        <img src="assets/typewriter-ibm-corporation-selectric-1-model-71.jpg" alt="Классическая печатная машинка IBM Selectric" width="1500" height="1000" loading="lazy">
+        <span class="tile-meta">
+          <strong>DamirAI</strong>
+          <em>Голосовой ассистент Windows</em>
+        </span>
+      </a>
+      <a class="tile tile-d" href="#showcase" data-show="salon">
+        <img src="assets/barbershop-semiotics.jpg" alt="Детали барбершопа: зеркало и вывеска" width="1024" height="768" loading="lazy">
+        <span class="tile-meta">
+          <strong>Салонам</strong>
+          <em>Лендинг под ключ за неделю</em>
+        </span>
+      </a>
+      <a class="tile tile-e" href="#showcase" data-show="learnai">
+        <img src="assets/scissors.webp" alt="Ножницы крупным планом" width="1024" height="709" loading="lazy">
+        <span class="tile-meta">
+          <strong>LearnAI</strong>
+          <em>Короткие AI-курсы</em>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <aside class="facts">
+      <p>Россия</p>
+      <p>с 2024</p>
+      <p><a href="https://github.com/AmilKa17">github.com/AmilKa17</a></p>
+    </aside>
+    <div class="bio">
+      <img class="drop" src="assets/typewriter-ibm-corporation-selectric-1-model-71.jpg" alt="" width="200" height="200">
+      <p><strong>AmilKa17</strong> делает сайты, которые приносят записи, и школьные продукты, которые выдерживают реальную нагрузку. На хакатоне ЛИ24 собрал ФизМатХаб - портал достижений с ролями ученика и админа. Параллельно продаю салонам красоты страницы с онлайн-записью: демо уже онлайн.</p>
+      <p class="bio-soft">Стек: HTML/CSS/JS, React, Vite, Express, SQLite. Пишу коротко, деплою на GitHub Pages, отвечаю в Max и Telegram.</p>
+    </div>
+  </section>
+
+  <section class="showcase" id="showcase">
+    <div class="plate">
+      <div class="plate-visual">
+        <img id="show-img" src="assets/beta-site-preview.png" alt="Превью выбранного проекта" width="900" height="900">
+      </div>
+      <div class="plate-copy">
+        <div class="tabs" role="tablist" aria-label="Проекты">
+          <button type="button" class="tab is-active" role="tab" aria-selected="true" data-key="salon">Салон</button>
+          <button type="button" class="tab" role="tab" aria-selected="false" data-key="fizmathub">ФизМатХаб</button>
+          <button type="button" class="tab" role="tab" aria-selected="false" data-key="damirai">DamirAI</button>
+          <button type="button" class="tab" role="tab" aria-selected="false" data-key="learnai">LearnAI</button>
+        </div>
+        <div class="plate-body">
+          <h2 id="show-title">Сайт с онлайн-записью</h2>
+          <p id="show-desc">Демо для салонов и парикмахерских: услуги, мастера, запись в WhatsApp. Клиенты видят, как будет выглядеть их страница.</p>
+        </div>
+        <div class="plate-actions">
+          <a id="show-primary" class="btn btn-ink" href="https://amilka17.github.io/beta-site/" target="_blank" rel="noopener">Открыть демо</a>
+          <a id="show-secondary" class="btn btn-tone" href="#cta">Заказать сайт</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="cta">
+    <h2 class="cta-title">Нужен сайт<br>с записью?</h2>
+    <div class="cta-bar">
+      <p>Напишите в Max или Telegram - сделаю под ваш салон за неделю.</p>
+      <a class="btn btn-accent" href="https://t.me/" id="contact-link">Написать</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-name" aria-hidden="true">AmilKa17</p>
+    <div class="footer-row">
+      <div class="places">
+        <a href="https://github.com/AmilKa17">GitHub</a>
+        <a href="https://amilka17.github.io/beta-site/">Демо салона</a>
+        <a href="mailto:hello@example.com" id="mail-link" hidden>Почта</a>
+      </div>
+      <div class="foot-links">
+        <div>
+          <a href="#work">Работы</a>
+          <a href="#about">О себе</a>
+          <a href="#showcase">Демо</a>
+        </div>
+        <div>
+          <a href="https://github.com/AmilKa17/beta-site">beta-site</a>
+          <a href="https://github.com/AmilKa17/fizmathub-li24">fizmathub-li24</a>
+          <a href="https://github.com/AmilKa17/damirai">damirai</a>
+        </div>
+        <div>
+          <a href="#top">Наверх</a>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <p class="credits">Картинки: <a href="https://collections.museumsvictoria.com.au/items/827791">Typewriter IBM Selectric</a> by David Thompson, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; <a href="https://www.rawpixel.com/image/5914106/photo-image-book-public-domain-letters">chalkboard</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>; <a href="https://www.flickr.com/photos/30071740@N05/3109537317">Barbershop semiotics</a> by withassociates, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>; scissors photo, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.</p>
+      <a href="#top">Наверх</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
